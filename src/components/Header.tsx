@@ -30,18 +30,18 @@ const Header: React.FC = () => {
         <ul className="hidden md:flex space-x-6 text-gray-700">
           
           <Link href="/#" className="hover:text-gray-600">Home </Link>
-          <Link href="/about" className="hover:text-gray-600">About </Link>
           <Link href="/cart" className="hover:text-gray-600">Cart </Link>
           <Link href="/blog" className="hover:text-gray-600">Blog </Link>
-          <Link href="/contact" className="hover:text-gray-600">Contact</Link>
           <Link href="/pages" className="hover:text-gray-600">Pages</Link>
+          <Link href="/contact" className="hover:text-gray-600">Contact</Link>
+          <Link href="/about" className="hover:text-gray-600">About </Link>
           
         </ul>
 
         {/* Actions */}
         <div className="flex items-center space-x-4">
           <a href="/login" className="text-gray-600 font-semibold hover:text-gray-800">Login / Register</a>
-          <a href="/search" className="text-gray-700 hover:text-gray-600 text-lg">🔍</a>
+          <a href="/pages" className="text-gray-700 hover:text-gray-600 text-lg">🔍</a>
           <a href="/cart" className="text-gray-700 hover:text-gray-600 text-lg">🛒</a>
           <a href="/wishlist" className="text-gray-700 hover:text-gray-600 text-lg">❤️</a>
         </div>

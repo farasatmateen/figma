@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
         <div>
           <h3 className="font-bold text-lg text-gray-900">Legal</h3>
           <ul className="mt-4 space-y-2">
-            <Link href="/about" className="hover:text-blue-600">"All products and services offered on this website are subject to applicable laws and regulations. By using this site, you agree to our Terms of Service and Privacy Policy. Prices, promotions, and availability are subject to change without notice. Customers are responsible for ensuring that the products they purchase comply with local laws and regulations in their region."</Link>
+            <Link href="/about" className="hover:text-blue-600">All products and services offered on this website are subject to applicable laws and regulations. By using this site, you agree to our Terms of Service and Privacy Policy. Prices, promotions, and availability are subject to change without notice. Customers are responsible for ensuring that the products they purchase comply with local laws and regulations in their region.</Link>
           </ul>
         </div>
 

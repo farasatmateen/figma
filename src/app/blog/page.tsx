@@ -1,9 +1,9 @@
-import slider1 from "../../../public/slide2.jpg"
-import slider2 from "../../../public/slide3.jpg"
-import slider3 from "../../../public/slide4.jpg"
-import slider4 from "../../../public/slide5.jpg"
-import slider5 from "../../../public/slide6.jpg"
-import slider6 from "../../../public/slide7.jpg"
+import slider1 from "../../../public3/slide2.jpg"
+import slider2 from "../../../public3/slide3.jpg"
+import slider3 from "../../../public3/slide4.jpg"
+import slider4 from "../../../public3/slide5.jpg"
+import slider5 from "../../../public3/slide6.jpg"
+import slider6 from "../../../public3/slide7.jpg"
 import Image from "next/image"
 export default function Blog(){
     return(
@@ -16,7 +16,7 @@ export default function Blog(){
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16 max-lg:max-w-3xl max-md:max-w-md mx-auto">
           <div className="bg-white cursor-pointer rounded-lg overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative group">
           <Image src={slider1} alt="slider1" 
-            alt="Blog Post 1" className="w-full h-96 object-cover" />
+            className="w-full h-96 object-cover" />
             <div className="p-6 absolute bottom-0 left-0 right-0 bg-pink-200 opacity-90">
               <span className="text-sm block text-gray-800 mb-2">10 FEB 2023 | BY JOHN DOE</span>
               <h3 className="text-xl font-bold text-gray-800">Igniting Your Imagination</h3>
@@ -27,7 +27,7 @@ export default function Blog(){
           </div>
           <div className="bg-white cursor-pointer rounded-lg overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative group">
           <Image src={slider2} alt="slider2" 
-            alt="Blog Post 2" className="w-full h-96 object-cover" />
+            className="w-full h-96 object-cover" />
             <div className="p-6 absolute bottom-0 left-0 right-0 bg-pink-200 opacity-90">
               <span className="text-sm block text-gray-800 mb-2">7 JUN 2023 | BY MARK ADAIR</span>
               <h3 className="text-xl font-bold text-gray-800">Hacks to Supercharge Your Day</h3>
@@ -38,7 +38,7 @@ export default function Blog(){
           </div>
           <div className="bg-white cursor-pointer rounded-lg overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative group">
           <Image src={slider3} alt="slider3" 
-            alt="Blog Post 3" className="w-full h-96 object-cover" />
+         className="w-full h-96 object-cover" />
             <div className="p-6 absolute bottom-0 left-0 right-0 bg-pink-200 opacity-90">
               <span className="text-sm block text-gray-800 mb-2">5 OCT 2023 | BY SIMON KONECKI</span>
               <h3 className="text-xl font-bold text-gray-800">Trends and Predictions</h3>
@@ -49,7 +49,7 @@ export default function Blog(){
           </div>
           <div className="bg-white cursor-pointer rounded-lg overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative group">
           <Image src={slider4} alt="slider4" 
-            alt="Blog Post 3" className="w-full h-96 object-cover" />
+            className="w-full h-96 object-cover" />
             <div className="p-6 absolute bottom-0 left-0 right-0 bg-pink-200 opacity-90">
               <span className="text-sm block text-gray-800 mb-2">5 OCT 2023 | BY SIMON KONECKI</span>
               <h3 className="text-xl font-bold text-gray-800">Trends and Predictions</h3>
@@ -60,7 +60,7 @@ export default function Blog(){
           </div>
           <div className="bg-white cursor-pointer rounded-lg overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative group">
           <Image src={slider5} alt="slider5" 
-            alt="Blog Post 3" className="w-full h-96 object-cover" />
+            className="w-full h-96 object-cover" />
             <div className="p-6 absolute bottom-0 left-0 right-0 bg-pink-200 opacity-90">
               <span className="text-sm block text-gray-800 mb-2">5 OCT 2023 | BY SIMON KONECKI</span>
               <h3 className="text-xl font-bold text-gray-800">Trends and Predictions</h3>
@@ -71,7 +71,7 @@ export default function Blog(){
           </div>
           <div className="bg-white cursor-pointer rounded-lg overflow-hidden shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative group">
           <Image src={slider6} alt="slider6"  
-            alt="Blog Post 3" className="w-full h-96 object-cover" />
+          className="w-full h-96 object-cover" />
             <div className="p-6 absolute bottom-0 left-0 right-0 bg-pink-200 opacity-90">
               <span className="text-sm block text-gray-800 mb-2">5 OCT 2023 | BY SIMON KONECKI</span>
               <h3 className="text-xl font-bold text-gray-800">Trends and Predictions</h3>
